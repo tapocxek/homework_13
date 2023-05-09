@@ -5,19 +5,28 @@
 }
 /* Візуальні стилі */
 .container {
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: end;
+  justify-content: center;
   background-color: rgba(129, 130, 128, 0.647);
   padding: 15px;
   height: 400px;
 }
 .box {
+  display: inline-flex;
+  margin-right: 15px;
   height: 100px;
   width: 150px;
   background-color: rgb(46, 40, 235);
   border-radius: 10px;
   color: #fff;
   font-size: 30px;
+  justify-content: center;
+  align-items: center;
 }
 /* Напишіть ваш код css після цього коментаря */
+
 /* 1.Не змінюючи стилі вище зробіть макет максимально схожий на зображення  */
 /* Підказка: 
         -відступи між елементами по 15px. 
